@@ -1,0 +1,41 @@
+[2024-01-10 15:49:09.346] [jointLog] [info] setting maxHashResizeThreads to 2
+[2024-01-10 15:49:09.346] [jointLog] [info] Fragment incompatibility prior below threshold.  Incompatible fragments will be ignored.
+[2024-01-10 15:49:09.346] [jointLog] [info] Usage of --validateMappings implies use of minScoreFraction. Since not explicitly specified, it is being set to 0.65
+[2024-01-10 15:49:09.346] [jointLog] [info] Setting consensusSlack to selective-alignment default of 0.35.
+[2024-01-10 15:49:09.346] [jointLog] [info] parsing read library format
+[2024-01-10 15:49:09.346] [jointLog] [info] There is 1 library.
+[2024-01-10 15:49:09.409] [jointLog] [info] Loading pufferfish index
+[2024-01-10 15:49:09.431] [jointLog] [info] Loading dense pufferfish index.
+[2024-01-10 15:49:11.657] [jointLog] [info] done
+[2024-01-10 15:49:11.808] [jointLog] [info] Index contained 1525 targets
+[2024-01-10 15:49:11.808] [jointLog] [info] Number of decoys : 1
+[2024-01-10 15:49:11.808] [jointLog] [info] First decoy index : 1524 
+[2024-01-10 15:49:30.334] [jointLog] [info] Computed 7286 rich equivalence classes for further processing
+[2024-01-10 15:49:30.334] [jointLog] [info] Counted 1003634 total reads in the equivalence classes 
+[2024-01-10 15:49:30.337] [jointLog] [info] Number of mappings discarded because of alignment score : 241315
+[2024-01-10 15:49:30.337] [jointLog] [info] Number of fragments entirely discarded because of alignment score : 127
+[2024-01-10 15:49:30.337] [jointLog] [info] Number of fragments discarded because they are best-mapped to decoys : 121
+[2024-01-10 15:49:30.337] [jointLog] [info] Number of fragments discarded because they have only dovetail (discordant) mappings to valid targets : 711
+[2024-01-10 15:49:30.338] [jointLog] [warning] Only 1003634 fragments were mapped, but the number of burn-in fragments was set to 5000000.
+The effective lengths have been computed using the observed mappings.
+
+[2024-01-10 15:49:30.338] [jointLog] [info] Mapping rate = 99.9873%
+
+[2024-01-10 15:49:30.338] [jointLog] [info] finished quantifyLibrary()
+[2024-01-10 15:49:30.338] [jointLog] [info] Starting optimizer
+[2024-01-10 15:49:30.341] [jointLog] [info] Marked 0 weighted equivalence classes as degenerate
+[2024-01-10 15:49:30.341] [jointLog] [info] iteration = 0 | max rel diff. = 22.0677
+[2024-01-10 15:49:30.379] [jointLog] [info] iteration = 100 | max rel diff. = 0.00434568
+[2024-01-10 15:49:30.379] [jointLog] [info] Finished optimizer
+[2024-01-10 15:49:30.379] [jointLog] [info] writing output 
+
+[2024-01-10 15:49:30.388] [jointLog] [info] Computing gene-level abundance estimates
+[2024-01-10 15:49:30.335] [fileLog] [info] 
+At end of round 0
+==================
+Observed 1003761 total fragments (1003761 in most recent round)
+
+[2024-01-10 15:49:30.774] [jointLog] [info] There were 2457 transcripts mapping to 833 genes
+[2024-01-10 15:49:30.775] [jointLog] [info] NOTE: We recommend using tximport (https://bioconductor.org/packages/release/bioc/html/tximport.html) for aggregating transcript-level salmon abundance estimates to the gene level.  It is more versatile, exposes more features, and allows considering multi-sample information during aggregation.
+[2024-01-10 15:49:30.778] [jointLog] [info] Aggregating expressions to gene level
+[2024-01-10 15:49:30.779] [jointLog] [info] done
